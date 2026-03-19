@@ -7,6 +7,13 @@ class JobCreateRequest(BaseModel):
     fileName: str = Field(..., min_length=3)
     contentType: str = Field(default="application/octet-stream")
 
+class JobCreateResponse(BaseModel):
+    jobId: str
+    status: str
+    createdAt: str
+    category: str
+    
+
 def now_iso() -> str:
     return datetime.now(timezone.utc).isoformat()
 

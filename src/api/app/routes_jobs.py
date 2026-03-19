@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
 from azure.cosmos.exceptions import CosmosHttpResponseError
-from .models_jobs import JobCreateRequest, job_to_entity
+from .models_jobs import JobCreateRequest, job_to_entity, JobCreateResponse
 from .cosmos import get_cosmos_container
 
 router = APIRouter(prefix="/jobs", tags=["jobs"])
@@ -15,8 +15,15 @@ def create_job(req:JobCreateRequest):
     except CosmosHttpResponseError as e:
         raise HTTPException(status_code=500, detail=f"Cosmos error: {getattr(e, 'message', str(e))}")
 
-    return {"status":"ok"}
+    return JobCreateResponse(jobId=entity["id"], status=entity["status"], createdAt=entity["createdAt"], category=entity["category"])
 
-@router.get("", status_code=200)
-def get_job():
-    return {"status":"ok"}
+@router.get("/{job_id}", status_code=200)
+def get_job(job_id:str):
+    container = get_cosmos_container()
+    try:
+        item = container.read_item(item=job_id, partition_key="JOB")
+        return item
+    except CosmosHttpResponseError as e:
+        if getattr(e, "status_code", None) == 404:
+            raise HTTPException(status_code=404, detail="Job not found")
+        raise HTTPException(status_code=500, detail=f"Cosmos error: {getattr(e, 'message', str(e))}")
