@@ -6,6 +6,6 @@ class Settings(BaseSettings):
     cosmos_endpoint: str
     cosmos_key: str
     cosmos_database: str
-    cosmos_conaitner: str
+    cosmos_container: str
 
 settings = Settings()

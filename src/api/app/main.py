@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from .routes_jobs import jobs_router
+from .routes_jobs import router as jobs_router
 
 app = FastAPI()
 
