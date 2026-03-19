@@ -1,4 +1,5 @@
 from fastapi import APIRouter, HTTPException
+from azure.cosmos.exceptions import CosmosHttpResponseError
 from .models_jobs import JobCreateRequest, job_to_entity
 from .cosmos import get_cosmos_container
 
