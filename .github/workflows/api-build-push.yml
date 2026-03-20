@@ -34,4 +34,11 @@ jobs:
           tags: |
             ${{ secrets.ACR_LOGIN_SERVER }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
             ${{ secrets.ACR_LOGIN_SERVER }}/${{ env.IMAGE_NAME }}:latest            
-        #uses: docker/setup-buildx-action@v4  
+        #uses: docker/setup-buildx-action@v4
+
+      - name: Update Azure App Service
+        uses: azure/webapps-deploy@v3
+        with:
+          app-name: ${{ secrets.AZURE_APP_NAME }}
+          images: ${{ secrets.ACR_LOGIN_SERVER }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
+          publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE }}
