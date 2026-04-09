@@ -12,6 +12,7 @@ class JobCreateResponse(BaseModel):
     status: str
     createdAt: str
     category: str
+    uploadUrl: str
     
 
 def now_iso() -> str:
