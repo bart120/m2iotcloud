@@ -353,7 +353,6 @@ CREATED → UPLOADED → QUEUED → PROCESSING → PROCESSED
 
 Le projet est a développé en individuel.
 
-
 Les étudiants sont encouragés à mettre en place un système de contrôle des sources de type Git ou équivalent, afin d'affecter et partager efficacement les fichiers de codes et autres composants numériques du projet (fichiers sources, descripteurs de déploiement, documents de recherche, cas d'utilisation, suites de tests, etc.).
 
 ## Soutenance et rendu
@@ -362,32 +361,30 @@ La soutenance aura lieux le lundi 22 juin 2026.
 Les horaires de passage sont définis pour chaque personne.
 Toute absence à la soutenance entrainera un 0 (ZERO).
 
-Le rendu s'effectu via un SVN. L'adresse du rendu est envoyé par mail.
+Le rendu s'effectu via un GIT. L'adresse du rendu est envoyé par mail.
 Le mail de rendu est vincent.leclerc@ynov.com
 Les fichiers rendus doivent contenir
   - L'arborescence du projet, immédiatement exploitable.
-  - Un AUTHORS.TXT listant les membres du groupe (prénom, nom), à raison d'un par ligne.  Il liste ensuite les responsabilités effectives de chacun dans le groupe.
 Le sujet du mail doit contenir votre section ainsi que le nom du projet.
 Les fichiers rendus peuvent aussi comprendre: 
   - Des documents de recherche créés pour le projet et fournissant plus de détails pour l'enseignant.
 Pour tout autre type de fichier, veuillez demander à l'enseignant si son inclusion est appropriée.
 La soutenance dure 10 minutes durant lesquelles les membres présentent leur travail. Un échange de questions peut se faire entre le professeur et les membres du groupe.
 
-Les groupes sont les suivants:
-- 
-
-Les horaires de passage des groupes sont les suivants:
+Les horaires de passage des étudiants sont les suivants:
 
 | Horaire | Groupe                                    |
 | ------- | ----------------------------------------- |
-| 11h45   |  |
-| 12h00   |    |
-| 12h15   |       |
-| 12h30   |       |
-| 12h45   |         |
-| 13h00   |    |
-| 14h15   |             |
-| 14h30   |         |
-| 15h45   |           |
-| 16h00   |      |
-| 16h15   |            |
+| 11h45   | TCHECOUNNOU Sessi Essenam Linerol |
+| 11h45   | PITOT Gaultier |
+| 11h45   | MORGADO Luca |
+| 12h00   | DAKHLI Siwar   |
+| 12h15   | VODOUHE Dededji Luc-armel      |
+| 12h30   | SÉNÉCAL Axel      |
+| 12h45   | NDONGO NGONDI Cyrielle        |
+| 13h00   | LEMAITRE Thomas   |
+| 14h15   | MOUSSA YARI Hanim Orou Nassara            |
+| 14h30   | FOMAT Gaetan        |
+| 15h45   | MOQUIN Augustin          |
+| 16h00   | CHOUIREF Cheikh     |
+| 16h15   | MENDA Aman Ilaidama           |
