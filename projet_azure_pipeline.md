@@ -375,8 +375,8 @@ Les horaires de passage des étudiants sont les suivants:
 
 | Horaire | Groupe                                    |
 | ------- | ----------------------------------------- |
-| 11h45   | TCHECOUNNOU Sessi Essenam Linerol |
-| 11h45   | PITOT Gaultier |
+| 11h15   | TCHECOUNNOU Sessi Essenam Linerol |
+| 11h30   | PITOT Gaultier |
 | 11h45   | MORGADO Luca |
 | 12h00   | DAKHLI Siwar   |
 | 12h15   | VODOUHE Dededji Luc-armel      |
