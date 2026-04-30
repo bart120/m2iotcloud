@@ -351,22 +351,17 @@ CREATED → UPLOADED → QUEUED → PROCESSING → PROCESSED
 
 ## Groupes et fonctionnement
 
-Le projet est a développé en groupe de 2 personnes.
-Tous les groupes seront définis en cours, sous la supervision de l'enseignant. Les groupes s'enregistrent avec un nom de groupe ainsi que les noms de leurs membres.
+Le projet est a développé en individuel.
 
-Toute inscription est définitive.  Les étudiants ne sont pas autorisés, par la suite, à changer de groupe.
-
-Au sein d'un groupe, les étudiants se répartiront les tâches pour le projet, de façon équitable.  Il est explicitement exigé que chaque membre consacre au moins 50% de son travail à du développement technique. Du code de test est acceptable, tant qu'il ne constitue pas l'intégralité de la réalisation technique du membre du groupe.
 
 Les étudiants sont encouragés à mettre en place un système de contrôle des sources de type Git ou équivalent, afin d'affecter et partager efficacement les fichiers de codes et autres composants numériques du projet (fichiers sources, descripteurs de déploiement, documents de recherche, cas d'utilisation, suites de tests, etc.).
 
 ## Soutenance et rendu
 
 La soutenance aura lieux le lundi 22 juin 2026.
-Les horaires de passage sont définis pour chaque groupe.
-Toute absence à la soutenance entrainera un 0 (ZERO) pour le membre du groupe.
+Les horaires de passage sont définis pour chaque personne.
+Toute absence à la soutenance entrainera un 0 (ZERO).
 
-Les rendus doivent figurer sur un seul compte par groupe.
 Le rendu s'effectu via un SVN. L'adresse du rendu est envoyé par mail.
 Le mail de rendu est vincent.leclerc@ynov.com
 Les fichiers rendus doivent contenir
