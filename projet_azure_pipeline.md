@@ -385,6 +385,6 @@ Les horaires de passage des étudiants sont les suivants:
 | 13h00   | LEMAITRE Thomas   |
 | 14h15   | MOUSSA YARI Hanim Orou Nassara            |
 | 14h30   | FOMAT Gaetan        |
-| 15h45   | MOQUIN Augustin          |
-| 16h00   | CHOUIREF Cheikh     |
-| 16h15   | MENDA Aman Ilaidama           |
+| 14h45   | MOQUIN Augustin          |
+| 15h00   | CHOUIREF Cheikh     |
+| 15h15   | MENDA Aman Ilaidama           |
